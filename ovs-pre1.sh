@@ -1,0 +1,5 @@
+ovs-vsctl set open . external-ids:ovn-remote=tcp:10.0.2.18:6642
+ovs-vsctl set open . external-ids:system-id=30067c2f-4fbb-47b7-abc5-1ea51e92c4b6
+ovs-vsctl set open . external-ids:ovn-encap-type=geneve
+ovs-vsctl set open . external-ids:ovn-encap-ip=10.0.2.19
+ovs-vsctl set open . external_ids:ovn-bridge-mappings="outNet:brenp94s0"
